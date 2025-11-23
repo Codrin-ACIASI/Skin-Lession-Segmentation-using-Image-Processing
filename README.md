@@ -2,6 +2,8 @@
 
 # Segmentarea leziunilor de piele
 
+> Acest proiect a fost realizat de către Bejenariu Codrin-Gigel și Condurache Gabriel-Florin
+
 ## Cuprins
 
 1. [Introducere](#introducere)
@@ -29,7 +31,7 @@ Această arhitectură este concepută pentru a captura informații contextuale l
 să segmenteze detalii fine fără a pierde informația globală și fără a necesita un cost computațional excesiv. 
 Scopul lucrării este reprezentat ca și experiment didactic despre modul în care U^2-Net poate îmbunătăți 
 detectarea automată a leziunilor pielii față de metodele standard, parcurgând etapele complete de preprocesare, 
-antrenare deep learning și postprocesare a măștilor de segmentare, dar și o familiarizare mai amâ.
+antrenare deep learning și postprocesare a măștilor de segmentare, dar și o familiarizare mai amânuntă.
 
 ## Arhitectura U^2-Net
 
