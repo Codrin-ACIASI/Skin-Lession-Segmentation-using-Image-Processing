@@ -5,16 +5,17 @@
 ## Cuprins
 
 1. [Introducere](#introducere)
-2. [Arhitectura proiectului](#arhitectura-proiectului)
+2. [Arhitectura U^2-Net](#arhitectura-u2-net)
+3. [Arhitectura proiectului](#arhitectura-proiectului)
     - [Input](#1-input)
     - [Etapa de preprocesare](#2-etapa-de-preprocesare)
     - [Etapa de segmentare](#3-etapa-de-segmentare-arhitectura-u2-net)
     - [Etapa de postprocesare](#4-etapa-de-postprocesare)
     - [Output](#5-output)
     - [Compararea rezultatelor](#6-compararea-rezultatelor)
-3. [Rezultate](#rezultate)
-4. [Componente Software și Hardware](#componente-software-și-hardware)
-5. [Referințe bibliografice](#referințe-bibliografice)
+4. [Rezultate](#rezultate)
+5. [Componente Software și Hardware](#componente-software-și-hardware)
+6. [Referințe bibliografice](#referințe-bibliografice)
 
 ## Introducere
 În medicina modernă, identificarea leziunilor cutanate poate fi dificilă
@@ -29,6 +30,14 @@ să segmenteze detalii fine fără a pierde informația globală și fără a ne
 Scopul lucrării este reprezentat ca și experiment didactic despre modul în care U^2-Net poate îmbunătăți 
 detectarea automată a leziunilor pielii față de metodele standard, parcurgând etapele complete de preprocesare, 
 antrenare deep learning și postprocesare a măștilor de segmentare, dar și o familiarizare mai amâ.
+
+## Arhitectura U^2-Net
+
+> **Notă:** Această implementare are la bază codul sursă original al lucrării [U^2-Net](https://github.com/xuebinqin/U-2-Net) 
+
+![Schema u2-net](ImaginiProiect/schema_u2_net.jpg)
+
+> Această implementare are un caracter strict didactic. Deși aplicată pe un set de date medical (segmentarea leziunilor cutanate), **obiectivul principal al lucrării este aprofundarea tehnicilor avansate de Procesare a Imaginilor (Image Processing)** și înțelegerea modului în care rețelele neuronale profunde pot extrage caracteristici vizuale complexe. Secundar, proiectul urmărește familiarizarea cu provocările specifice imagisticii medicale (zgomot, contrast scăzut, forme neregulate).
 
 ## Arhitectura Proiectului
 
