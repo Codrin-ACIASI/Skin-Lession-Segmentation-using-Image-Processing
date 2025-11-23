@@ -8,7 +8,7 @@
 2. [Arhitectura proiectului](#arhitectura-proiectului)
     - [Input](#1-input)
     - [Etapa de preprocesare](#2-etapa-de-preprocesare)
-    - [Etapa de segmentare](#3-etapa-de-segmentare)
+    - [Etapa de segmentare](#3-etapa-de-segmentare-arhitectura-u2-net)
     - [Etapa de postprocesare](#4-etapa-de-postprocesare)
     - [Output](#5-output)
     - [Compararea rezultatelor](#6-compararea-rezultatelor)
